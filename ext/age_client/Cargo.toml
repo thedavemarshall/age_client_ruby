@@ -1,0 +1,13 @@
+[package]
+name = "age_client"
+version = "0.1.0"
+edition = "2021"
+authors = ["David Marshall <depmarshall@gmail.com>"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+magnus = { version = "0.6.3" }
+apache_age = { git = "https://github.com/thedavemarshall/rust-apache-age/" }
